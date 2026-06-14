@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LocalHost.LoyaltyDWH"
+  DTS:DTSID="{93C9F83B-A3C5-476D-ACAE-2BD59D3D52CC}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=LoyaltyDWH;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-AirlineETL2-{93C9F83B-A3C5-476D-ACAE-2BD59D3D52CC}LocalHost.LoyaltyDWH;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

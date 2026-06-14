@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="MEDS_SQLEXPRESS.AirlineLoyalty_ODS"
+  DTS:DTSID="{0033C078-E628-4019-8181-B4DEC4F68632}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=MEDS\SQLEXPRESS;Initial Catalog=AirlineLoyalty_ODS;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-AirlineETL2-{0033C078-E628-4019-8181-B4DEC4F68632}MEDS\SQLEXPRESS.AirlineLoyalty_ODS;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
